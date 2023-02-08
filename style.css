@@ -1,0 +1,132 @@
+* {
+  padding: auto;
+  margin: 0px auto;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.headerContainer {
+  display: flex;
+  width: 100%;
+  height: 592px;
+  background-color: #ffcd9e;
+}
+.leftheader h1 {
+  position: absolute;
+  width: 562px;
+  height: 108px;
+  left: 136px;
+  top: 83px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+}
+.leftheader p {
+  position: absolute;
+  width: 495px;
+  height: 81px;
+  left: 136px;
+  top: 219px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+}
+.leftheader h4 {
+  position: absolute;
+  width: 227px;
+  height: 81px;
+  left: 136px;
+  top: 315px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+}
+.leftheader input {
+  box-sizing: border-box;
+  position: absolute;
+  width: 344px;
+  height: 64px;
+  left: 136px;
+  top: 411px;
+  background: #ffffff;
+  border: 4px solid #000000;
+  border-radius: 8px;
+}
+.leftheader button {
+  position: absolute;
+  width: 216px;
+  height: 64px;
+  left: 496px;
+  top: 411px;
+  background: #282828;
+  border-radius: 8px;
+  color: white;
+}
+.leftheader .small {
+  position: absolute;
+  width: 344px;
+  height: 61px;
+  left: 180px;
+  top: 460px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.rightheader img {
+  position: absolute;
+  left: 65%;
+  right: 15.58%;
+  top: 11.55%;
+  bottom: 11.51%;
+  background: #100f0d;
+}
+
+.footerContainer {
+  display: flex;
+  width: 100%;
+  height: 298px;
+  background-color: #282828;
+}
+.leftfooter ul {
+  position: absolute;
+  width: 216px;
+  height: 36px;
+  left: 191px;
+  top: 654px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.rightfooter ul {
+  padding-top: 62px;
+  padding-left: 600px;
+}
+.rightfooter li {
+  margin: 10px 0;
+}
+.rightfooter .im {
+  padding-left: 90px;
+}
+.rightfooter .mail {
+  padding-left: 45px;
+}
